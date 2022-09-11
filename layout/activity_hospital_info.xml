@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HospitalInfo"
+    android:background="#aad7fc"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:src="@drawable/hosp" />
+
+    <TextView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="@color/white"
+        android:padding="30dp"/>
+
+    <TextView
+        android:id="@+id/Hospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="5dp"
+        android:background="#88c7fb"
+        android:text="Hospital"
+        android:textColor="#1f28b9"
+        android:textSize="35sp"
+        android:textStyle="normal"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Location
+                      Opening Hours
+                      Services
+                      General Information"
+        android:padding="70dp"
+        android:textColor="#1f28b9"
+        android:textSize="28sp"
+        android:textStyle="normal" />
+
+    <ImageButton
+        android:id="@+id/Homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="-50dp"
+        android:backgroundTint="#4c9de1"
+        android:padding="50dp"
+        android:src="@drawable/ic_baseline_house_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="-50dp"
+        android:backgroundTint="#88c7fb"
+        android:padding="50dp"
+        android:src="@drawable/ic_baseline_navigation_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/Doctors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="-50dp"
+        android:backgroundTint="#88c7fb"
+        android:padding="50dp"
+        android:src="@drawable/ic_baseline_person_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>
